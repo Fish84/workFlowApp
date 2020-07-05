@@ -2,16 +2,11 @@ package com.saltsoftware.entity;
 
 public class EmployeeRole {
 
-    private int empID;
-    private int roleID;
+    private int empID, roleID;
 
-    public static class Builder {
-        private int empID, roleID;
-    }
-
-    public EmployeeRole(int empID, int roleID) {
-        this.empID = empID;
-        this.roleID = roleID;
+    private EmployeeRole(Builder builder) {
+        this.empID = builder.empID;
+        this.roleID = builder.roleID;
     }
 
     public int getEmpID() {
@@ -30,5 +25,27 @@ public class EmployeeRole {
                 '}';
     }
 
+    public static class Builder {
+        private int empID, roleID;
 
+        public Builder setEmpID(int empID) {
+            this.empID = empID;
+            return this;
+        }
+
+        public Builder setRoleID(int roleID) {
+            this.roleID = roleID;
+            return this;
+        }
+
+        public Builder copy(EmployeeRole employeeRole){
+            this.empID = employeeRole.empID;
+            this.roleID = employeeRole.roleID;
+            return this;
+        }
+
+        public EmployeeRole build(){
+            return new EmployeeRole(this);
+        }
+    }
 }
