@@ -136,7 +136,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1593954457795" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1593954668353" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -168,7 +168,7 @@
       <workItem from="1593933991478" duration="1213000" />
       <workItem from="1593935967505" duration="809000" />
       <workItem from="1593944732879" duration="203000" />
-      <workItem from="1593944974178" duration="6642000" />
+      <workItem from="1593944974178" duration="6884000" />
     </task>
     <task id="LOCAL-00001" summary="Delete all classes, Except EmployeeRole, Please create the class you are responsible for. Also added the gitignore file">
       <created>1593954362619</created>
@@ -177,11 +177,25 @@
       <option name="project" value="LOCAL" />
       <updated>1593954362619</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Delete all classes, Except EmployeeRole, Please create the class you are responsible for. Also added the gitignore file">
+      <created>1593954455379</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1593954455380</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Delete all classes, Except EmployeeRole, Please create the class you are responsible for. Also added the gitignore file">
+      <created>1593954481454</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1593954481454</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22076000" />
+    <option name="totallyTimeSpent" value="22318000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
