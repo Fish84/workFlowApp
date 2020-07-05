@@ -1,4 +1,4 @@
-package com.saltsoftware.enity;
+package com.saltsoftware.entity;
 
 public class PatientPaymentType {
 }
